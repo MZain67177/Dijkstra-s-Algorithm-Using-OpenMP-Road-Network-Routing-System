@@ -47,8 +47,14 @@ Average Execution Time: 0.26 seconds
 g++ src/main.cpp src/Graph.cpp src/Database.cpp -fopenmp -o build/main.exe
 ```
 
-## Run
+## Run Executable
 
 ```bash
 ./build/main.exe
+```
+
+## Rebuild From Source
+
+```bash
+g++ src/main.cpp src/Graph.cpp src/Database.cpp -fopenmp -o build/main.exe
 ```
